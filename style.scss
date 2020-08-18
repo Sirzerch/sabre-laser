@@ -69,8 +69,8 @@ body {
 
     &:active {
         transition: all 200ms;
-        background-color: #cc2fc2;
-        box-shadow: 0px 0px 8px 5px #cc2fc2, inset 0px 0px 10px #cc2fc2;
+        //background-color: #cc2fc2;
+        //box-shadow: 0px 0px 8px 5px #cc2fc2, inset 0px 0px 10px #cc2fc2;
 
         & + .laser {
             transform: scaleX(1);
@@ -80,11 +80,11 @@ body {
 
 .laser {
     position: absolute;
-    background: #cc2fc2;
+    // background: #cc2fc2;
     width: 500px;
     height: 18px;
     border-radius: 3em;
-    box-shadow: 0px 0px 10px 5px #cc2fc2;
+    //box-shadow: 0px 0px 10px 5px #cc2fc2;
     bottom: 0.4em;
     left: 168px;
     transform: scaleX(0);
